@@ -18,7 +18,7 @@ Tips: You just have to find the first peak, which means there is no need to find
 
 # Sol -> Brute Force
 # return position
-def peakfinding1dbf(data):
+def peakfinding_1d_bf(data):
     n = len(data)
     position = -1  # default value is -1, which is obviously not a valid index of the input list
     if n < 3:
@@ -38,7 +38,7 @@ def peakfinding1dbf(data):
 
 # Sol -> Divide and Conquer
 # return value
-def peakfinding1ddc(data):
+def peakfinding_1d_dc(data):
     print(data)
     n = len(data)
     if n == 1:
@@ -53,10 +53,10 @@ def peakfinding1ddc(data):
         print('middle value is list[' + str(middle) + ']:' + str(data[middle]))
         if data[middle-1] > data[middle]:
             print("select left")
-            return peakfinding1ddc(data[0:middle])  # exclude data[middle]
+            return peakfinding_1d_dc(data[0:middle])  # exclude data[middle]
         elif data[middle+1] > data[middle]:
             print("select right")
-            return peakfinding1ddc(data[middle+1:])
+            return peakfinding_1d_dc(data[middle+1:])
         else:
             print("select middle")
             return data[middle]
@@ -69,7 +69,7 @@ TestList = [6, 7, 4, 3, 2, 1, 4, 5]
 # Test 1D-PeakFinding-BruteForce
 print("==== 1D-PeakFinding-BruteForce starts ====")
 start = time.process_time_ns()
-PeakIndexBF = peakfinding1dbf(TestList)
+PeakIndexBF = peakfinding_1d_bf(TestList)
 end = time.process_time_ns()
 print("==== 1D-PeakFinding-BruteForce ends with execution time:", end - start, "ns. ====")
 print("Peak index is TestList[" + str(PeakIndexBF) + "] : " + str(TestList[PeakIndexBF]))
@@ -77,7 +77,7 @@ print("Peak index is TestList[" + str(PeakIndexBF) + "] : " + str(TestList[PeakI
 # Test 1D-PeakFinding-Divide&Conquer
 print("==== 1D-PeakFinding-Divide&Conquer starts ====")
 start = time.process_time_ns()
-PeakValueDC = peakfinding1ddc(TestList)
+PeakValueDC = peakfinding_1d_dc(TestList)
 end = time.process_time_ns()
 print("==== 1D-PeakFinding-Divide&Conquer ends with execution time:", end - start, "ns. ====")
 print("Peak value is " + str(PeakValueDC))
