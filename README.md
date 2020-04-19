@@ -1,4 +1,4 @@
-# algorithm_python
+# Introduction to my project 'algorithm_python'
 This project is about implementing basic algorithms based on 'MIT 6.006 - Introduction to algorithms'.  
 This project is created only for study.  
 Welcome to communicate with me via my email on my homepage: 
