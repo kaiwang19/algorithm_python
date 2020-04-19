@@ -4,6 +4,8 @@
 Check slides here: 
 https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec01.pdf
 
+---
+
 ## One-dimensional Version  
 Position 2 is a peak if and only if b ≥ a and b ≥ c. Position 9 is a peak if i ≥ h.
 + 1 2 3 4 5 6 7 8 9  
