@@ -35,3 +35,9 @@ elif x == 0:
     print("error")
 else:
     print("do nothing")
+
+print("Tab\tTab")
+print("Enter\nAnother Msg")  # recommended
+# print("Windows\r\nWindows")
+# print("Linux\nLinux")
+
