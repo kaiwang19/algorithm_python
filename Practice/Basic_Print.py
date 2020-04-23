@@ -5,6 +5,8 @@ Authored by Kai Wang.
 """
 
 # common use to print string
+import sys
+
 a, b, st = 1, 2, "johnny hassewer"
 print(st)  # output entire string
 print(st[0])  # output the 1st character of the string
@@ -23,6 +25,10 @@ print("value of x is {0}; value of k is {1}".format(x, k))
 print(x, k)  # do not change line
 print(x,)  # change line
 print(k,)  # change line
+
+# max
+print(sys.maxsize)
+print(float('inf'))
 
 # for loop sentences
 for y in range(0, 1):

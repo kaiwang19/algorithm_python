@@ -1,24 +1,24 @@
 """
 Based on MIT 6.006 Lec01 - Algorithmic thinking, peak finding
 Q1 - 1D peak finding
+Position 2 is a peak if and only if b ≥ a and b ≥ c. Position 9 is a peak if i ≥ h.
++ 1 2 3 4 5 6 7 8 9
++ a b c d e f g h i
+Problem: Find a peak if it exists (Does it always exist?)
+Tips: You just have to find the first peak, which means there is no need to find all peaks.
+
 Q2 - 2D peak finding
 """
 
 import time
 
-"""
-Q1 - [One-dimensional Version]
-Position 2 is a peak if and only if b ≥ a and b ≥ c. Position 9 is a peak if i ≥ h.
-+ 1 2 3 4 5 6 7 8 9  
-+ a b c d e f g h i  
-Problem: Find a peak if it exists (Does it always exist?)
-Tips: You just have to find the first peak, which means there is no need to find all peaks.
-"""
 
-
-# Sol -> Brute Force
-# return position
 def peakfinding_1d_bf(data):
+    """
+    Sol -> Brute Force
+    :param data: input list
+    :return: peak position
+    """
     n = len(data)
     position = -1  # default value is -1, which is obviously not a valid index of the input list
     if n < 3:
@@ -36,10 +36,13 @@ def peakfinding_1d_bf(data):
         return position
 
 
-# Sol -> Divide and Conquer
-# return value
 def peakfinding_1d_dc(data):
-    print(data)
+    """
+    Sol -> Divide and Conquer
+    :param data: input list
+    :return: peak value
+    """
+    # print(data)
     n = len(data)
     if n == 1:
         return data[0]
@@ -50,15 +53,15 @@ def peakfinding_1d_dc(data):
             return data[1]
     else:
         middle = int(n/2)
-        print('middle value is list[' + str(middle) + ']:' + str(data[middle]))
+        # print('middle value is list[' + str(middle) + ']:' + str(data[middle]))
         if data[middle-1] > data[middle]:
-            print("select left")
+            # print("select left")
             return peakfinding_1d_dc(data[0:middle])  # exclude data[middle]
         elif data[middle+1] > data[middle]:
-            print("select right")
+            # print("select right")
             return peakfinding_1d_dc(data[middle+1:])
         else:
-            print("select middle")
+            # print("select middle")
             return data[middle]
 
 

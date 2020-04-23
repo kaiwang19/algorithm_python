@@ -1,12 +1,13 @@
-"""
-Insertion Sort
-Introduction to Algorithms (3rd Chinese Edition), page 14,
-Authored by Kai Wang.
-2020-04-19
-"""
-
 
 def insertion_sort(A):
+    """
+    Insertion Sort
+    Introduction to Algorithms (3rd Chinese Edition), page 14,
+    Authored by Kai Wang.
+    2020-04-19
+    :param A: unsorted list
+    :return: sortted list
+    """
     for j in range(len(A)):
         # print("j equals " + str(j) + " when dealing with list " + str(A))
         key = A[j]
