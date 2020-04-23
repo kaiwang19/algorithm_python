@@ -1,6 +1,6 @@
 # Introduction to my project 'algorithm_python'
 This project is about implementing basic algorithms based on 'MIT 6.006 - Introduction to algorithms'.  
-This project is created only for study.  
+For study only.  
 Welcome to communicate with me via my email on my homepage: 
 https://github.com/kaiwang19  
 
@@ -15,6 +15,9 @@ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-in
 ### Unit 2: Sorting and Trees    
 + 3	Insertion sort, merge sort  
 + 4	Heaps and heap sort  
+
+----------------------- Below are not down yet due to laziness -----------------------
+
 + 5	Binary search trees, BST sort  
 + 6	AVL trees, AVL sort  
 + 7	Counting sort, radix sort, lower bounds for sorting  
@@ -48,5 +51,6 @@ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-in
 + 23	Computational complexity  
 + 24	Topics in algorithms research  
 
+---
 
 ![taiji](https://github.com/kaiwang19/algorithm_python/blob/master/Pics/Taiji_Person.jpg "")

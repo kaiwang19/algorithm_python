@@ -23,7 +23,7 @@ Heaps
 + An **array**, visualized as a **nearly complete binary tree**
 + Max Heap Property: The key of a node is ≥ than the keys of its children (Min Heap defined analogously)  
 
-\*Heap Operations\*  
+Heap Operations  
 - build_max_heap : produce a max-heap from an unordered array  
 - max_heapify : correct a **single** violation of the heap property in a subtree at its root
 - insert
