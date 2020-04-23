@@ -53,4 +53,4 @@ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-in
 
 ---
 
-<div align=center>![taiji](https://github.com/kaiwang19/algorithm_python/blob/master/Pics/Taiji_Person.jpg "万丈高楼平地起")
+<div align=center>![taiji](https://github.com/kaiwang19/algorithm_python/blob/master/Pics/Taiji_Person.jpg "万丈高楼平地起")</div>  
