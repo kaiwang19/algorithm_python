@@ -47,3 +47,6 @@ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-in
 ### Unit 8: Advanced Topics  
 + 23	Computational complexity  
 + 24	Topics in algorithms research  
+
+
+![taiji](https://github.com/kaiwang19/algorithm_python/blob/master/Pics/Taiji.jpg "GitHub,Social Coding")

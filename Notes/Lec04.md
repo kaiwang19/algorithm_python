@@ -19,12 +19,12 @@ A data structure implementing a set S of elements, each associated with a key, s
 
 ## Heaps  
 Heaps  
-+ Implementation of a priority queue (<u>Todo: Other Implementations & Comparing Stacks queue and priority queue</u>)
-+ An <b>array</b>, visualized as a <u>nearly complete</u> <b>binary tree</b>
++ Implementation of a priority queue (* *Todo: Other Implementations & Comparing Stacks queue and priority queue* *)
++ An **array**, visualized as a **nearly complete binary tree**
 + Max Heap Property: The key of a node is ≥ than the keys of its children (Min Heap defined analogously)  
 Heap Operations  
 - build_max_heap : produce a max-heap from an unordered array  
-- max_heapify : correct a <b>single</b> violation of the heap property in a subtree at its root
+- max_heapify : correct a **single** violation of the heap property in a subtree at its root
 - insert
 - extract_max
 - heap_sort
