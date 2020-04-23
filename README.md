@@ -1,6 +1,5 @@
 # Introduction to my project 'algorithm_python'
-This project is about implementing basic algorithms based on 'MIT 6.006 - Introduction to algorithms'.  
-For study only.  
+This project is about implementing basic algorithms based on 'MIT 6.006 - Introduction to algorithms'.  -- For study only.  
 Welcome to communicate with me via my email on my homepage: 
 https://github.com/kaiwang19  
 
@@ -53,5 +52,4 @@ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-in
 
 ---
 
-<div align=center>![taiji](https://github.com/kaiwang19/algorithm_python/blob/master/Pics/Taiji_Person.jpg "万丈高楼平地起")</div>  
-<center>![taiji](https://github.com/kaiwang19/algorithm_python/blob/master/Pics/Taiji_Person.jpg "万丈高楼平地起")</center>  
+![taiji](https://github.com/kaiwang19/algorithm_python/blob/master/Pics/Taiji_Person.jpg "万丈高楼平地起")  
