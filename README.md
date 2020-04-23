@@ -49,4 +49,4 @@ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-in
 + 24	Topics in algorithms research  
 
 
-![taiji](https://github.com/kaiwang19/algorithm_python/blob/master/Pics/Taiji.jpg "GitHub,Social Coding")
+![taiji](https://github.com/kaiwang19/algorithm_python/blob/master/Pics/Taiji_Person.jpg "")
