@@ -43,9 +43,7 @@ def max_heapify(A, i):
         if A[right_index] > A[largest_index]:
             largest_index = right_index
     if largest_index != i:
-        largest_value = A[largest_index]
-        A[largest_index] = A[i]
-        A[i] = largest_value
+        A[largest_index], A[i] = A[i], A[largest_index]
         max_heapify(A, largest_index)
 
 

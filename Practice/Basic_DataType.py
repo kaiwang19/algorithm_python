@@ -3,6 +3,7 @@ Common use of [data type]
 Authored by Kai Wang.
 2020-04-19
 """
+import copy
 
 """
 Built-in Data Types
@@ -89,7 +90,8 @@ print("orange appears " + str(thislist.count("apple")) + " times")
 # del thislist[0]  # The del keyword removes the specified index
 # del thislist
 # thislist.clear()
-mylist = thislist.copy()
+mylist = thislist.copy()  # copy
+mylist = copy.deepcopy(thislist)  # deepcopy
 mylist = list(thislist)
 list1 = ["a", "b", "c"]
 list2 = [1, 2, 3]

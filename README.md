@@ -15,7 +15,7 @@ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-in
 + 3	Insertion sort, merge sort  
 + 4	Heaps and heap sort  
 
------------------------ Below are not finished yet due to laziness -----------------------
+----------------------- Below contents are not finished yet due to laziness -----------------------
 
 + 5	Binary search trees, BST sort  
 + 6	AVL trees, AVL sort  
